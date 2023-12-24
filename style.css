@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+ body {
+    width: 100vw;
+    background-color: #101214;
+    color: #e7e7e7;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px;  
+
+ }
+
+ .HeaderBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+ }
+
+ header {
+    background-color: #222428;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+ }
+
+ .LogoNAME {
+    font-size: 200%;
+    font-weight: 500;
+ }
+
+ header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+ }
+
+ header ul li a {
+    border-radius: 12px;
+    padding: 8px 10px;
+    font-size: 115%;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+
+ header ul li a:hover {
+    background-color: #424448;
+ }
+
+ .HeaderBTN {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 115%;
+    padding: 6px 15px;
+    border: none;
+    background: linear-gradient(125deg, #69b3bb, #b255c8);
+    box-shadow: 0 4px 4px #00000075;
+    color: #000;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+
+ .HeaderBTN:hover {
+    transform: translateY(-5px);
+ }
